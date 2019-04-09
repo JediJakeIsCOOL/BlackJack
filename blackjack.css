@@ -1,0 +1,43 @@
+#table {
+    background-color: #59c136;
+    height: 600px;
+    margin-top: 10%;
+    border-radius: 15px;
+    border: solid black 10px;
+    /* border-width: 15px; */
+}
+label{
+    position: static;
+    bottom: 15%;
+    margin-left: 6%;
+    padding: 50px;
+}
+    
+
+.points{
+    position: relative;
+    right: 10%;
+    
+}
+.hand{
+    height: 20%;
+    width: 80%;
+    background-color:#8edb74;
+    margin: auto;
+
+}
+#dealer-hand{
+    margin-top: 10%
+}
+
+#dealer-cards{
+    display: inline;
+}
+#player-cards{
+    display: inline;
+}
+#dealer-name{
+    margin-top: 10%;
+    
+}
+    

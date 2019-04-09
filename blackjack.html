@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="blackjack.css" />
+    
+</head>
+<body>
+    
+<div style="margin: auto; width: 75%" id="table" align="center">
+    <!-- <img src="JavaScript101/scripts/images/blackjack.png"> -->
+
+    <div id="messages"></div>
+    
+    <span><label id="dealer-name"> Dealer: </label>  <label id="dealer-points" class="points"> 0 </label>   <label>Player: </label>
+    
+    <label id="player-points" class="points"> 0</label></span>
+    
+    
+    <div id="dealer-hand" class="hand">
+        <div id="dealer-cards"></div>
+    
+    </div>
+    
+    <br>
+  
+    <div id="player-hand" class="hand">
+        <div id="player-cards"></div>
+    </div>
+    <br>
+    <br>
+    <div class="buttons">
+        
+        <button style="width: 100px" id="deal-button">Deal</button>
+        
+        <button id="hit-button">Hit</button>
+        
+        <button id="stand-button">Stand</button>
+
+        <button id="play-button">Play Again</button>
+    </div>
+    <br>
+    <span id="betHolder"> </span>
+    <br>
+
+  <span><button  style="height: 2%" id="decreaseBet">  </button><input size="1" type="input" name="placeBet" id="placeBet" value="1" readonly> <button style="height: 2%" id="increaseBet"></button></span>
+
+  <br>
+  <br>
+
+  <span id="playerGold"> </span> 
+</div>
+
+    <script src="constructors.js"></script>
+</body>
+</html>
